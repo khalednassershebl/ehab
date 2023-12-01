@@ -431,3 +431,131 @@ a {
         }
     }
 }
+
+[lang= "en"] {
+    .month-overview-card {
+        .month-title {
+            .month-num {
+                margin-left: unset;
+                margin-right: 15px;
+                span {
+                    font-family: "Poppins";
+                }
+            }
+            .month-text {
+                text-align: left;
+                h3 {
+                    text-align: left;
+                    font-weight: 400;
+                }
+                p {
+                    font-weight: 400;
+                    text-align: left;
+                }
+                span {
+                    text-align: left;
+                }
+            }
+        }
+        .course-progress {
+            .course-progress-info {
+                span {
+                    font-weight: 500;
+                }
+            }
+            .course-persentage {
+                font-weight: 500;
+            }
+            .progress {
+                .inner-progress {
+                    background: linear-gradient(-118deg, #ffe7a1, #d78b00) !important;
+                    right: unset;
+                    left: 0;
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                }
+            }
+            .course-score {
+                p {
+                    margin: 0 0px 0 10px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .courses-registered {
+        .widget-box-title {
+            font-weight: 500;
+            text-align: left;
+        }
+        .courses-registered-content {
+            .courses-registered-preview {
+                .media {
+                    img {
+                        margin-left: unset;
+                        margin-right: 10px;
+                    }
+                    .media-body {
+                        h5 {
+                            font-weight: 600;
+                            text-align: left;
+                        }
+                        .complete {
+                            font-weight: 600;
+                            text-align: left;
+                            margin-right: unset;
+                            margin-left: 2px;
+                        }
+                    }
+                }
+                .progress {
+                    .inner-progress {
+                        background: linear-gradient(-118deg, #00c5da, #0046ed) !important;
+                        right: unset;
+                        left: 0;
+                    }
+                }
+            }
+    
+        }
+    }
+    .month-content {
+        .month-content-card {
+            .month-content-card-title {
+                text-align: left;
+                figure {
+                    margin-left: unset;
+                    margin-right: 15px;
+                }
+                .card-icon {
+                    margin-left: unset;
+                    margin-right: 15px;
+                }
+                .month-content-card-info {
+                    .upper-info {
+                        span {
+                            font-weight: 500;
+                        }
+                    }  
+                    h3 {
+                        font-weight: 600;
+                    } 
+                }
+            }
+            .month-content-card-action {
+                .btn-transparent {
+                    font-weight: 600;
+                }      
+            }
+        }
+    }
+    .month-content {
+        .opened-month-card {
+            .month-content-card-title {
+                .card-icon {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
